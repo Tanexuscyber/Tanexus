@@ -3,62 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TANEXUS - Cyber Security</title>
+  <title>TANEXUS - Next Gen Cyber Security</title>
   <style>
-    body {
-      background-color: #0a0a0a;
-      color: white;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-    header {
-      padding: 40px 20px;
-    }
-    header img {
-      width: 250px;
-      height: auto;
-      filter: drop-shadow(0 0 10px #00ff88);
-    }
-    h1 {
-      color: #00ff88;
-      font-size: 40px;
-      margin-top: 15px;
-      letter-spacing: 3px;
-    }
-    .content {
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
-    }
-    .btn {
-      display: inline-block;
-      background: #00ff88;
-      color: black;
-      padding: 12px 25px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-      margin-top: 20px;
-    }
-    .btn:hover {
-      background: #00cc66;
-    }
+    body{background:#000; color:white; text-align:center; font-family:Arial; margin:0; padding:0;}
+    .logo-box{background:#000; padding:40px 20px; box-shadow:0 0 30px #00ff88;}
+    .logo-box img{width:250px;}
+    h1{color:#00ff88; font-size:40px; margin:10px 0;}
+    p{font-size:16px; color:#ccc;}
+    .btn{background:#00ff88; color:#000; padding:12px 25px; border:none; border-radius:8px; font-weight:bold; margin:10px; cursor:pointer; text-decoration:none; display:inline-block;}
+    .btn:hover{background:#00cc66;}
+    .contact{margin-top:50px; padding:30px; background:#111;}
+    .contact h2{color:#00ff88;}
   </style>
 </head>
 <body>
 
-  <header>
+  <div class="logo-box">
     <img src="logo.png.jpg" alt="TANEXUS Logo">
     <h1>TANEXUS</h1>
     <p>Next Gen Cyber Security Solutions</p>
-  </header>
+  </div>
 
-  <div class="content">
+  <div style="padding:40px 20px;">
     <h2>Welcome to TANEXUS</h2>
     <p>We provide ethical hacking, penetration testing, and cyber security services.</p>
-    <a href="#" class="btn">Contact Us</a>
+    
+    <a href="about.html" class="btn">About Us</a>
+    <a href="services.html" class="btn">Services</a>
+    <a href="#contact" class="btn">Contact Us</a>
+  </div>
+
+  <div class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p><b>Phone:</b> 03145143754</p>
+    <p><b>Email:</b> tanexuscyber@hotmail.com</p>
+    <p><b>Website:</b> https://tanexuscyber.github.io/tanexus</p>
+    <p><b>Address:</b> Islamabad, Pakistan</p>
   </div>
 
 </body>
